@@ -1,0 +1,38 @@
+---
+title: "about"
+author: "James Cain"
+date: "30/09/2021"
+output: html_document
+---
+
+## About the Host & Nested Gene pair viewer 
+
+*NOTE: The application will take a few seconds to load*
+
+This tool allows visualisation of data presented in Montibus et al:
+
+Title:
+Global identification of mammalian host and nested gene pairs reveal tissue-specific transcriptional interplay  
+
+Abstract: 
+Nucleotide sequences along a gene provide instructions to transcriptional and co-transcriptional machinery allowing genome expansion into the transcriptome. Interestingly, nucleotide sequence can often be shared between two genes and in some occurrences, a gene is located completely within a different gene, these are known as host/nested genes pairs. In these instances, if both genes are transcribed, overlap can result in a transcriptional crosstalk where genes regulate each other. Despite this, a comprehensive annotation of where such genes are located, and their expression patterns is lacking. To address this, we provide an up-to-date catalogue of host/nested gene pairs in mouse and human, showing that over a tenth of all genes contain a nested gene. We discovered that transcriptional co-occurrence is often tissue-specific. This co-expression was especially prevalent within the transcriptionally permissive tissue, testis. We used this developmental system and scRNA-seq analysis to demonstrate that co-expression of pairs can occur in single cells and transcription in the same place at the same time can enhance transcript diversity of the host gene. In agreement, host genes are more transcript diverse than the rest of the transcriptome and we propose that nested gene expression drives this observed diversity. Given that host/nested gene configurations were common in both human and mouse genomes, the interplay between pairs is therefore likely selected for, highlighting the relevance of transcriptional crosstalk between genes which share nucleic acid sequence. The results and analysis are available on an (this) Rshiny application.  
+
+
+
+The app allows a searchable function of Host & Nested Genes pairs in both Human and Mouse genomic annotations. Selection of rows in the relevant tables then allows for three options:
+
+- Identification of the corresponding Host/Nested Gene pair, including details regarding their biotype and genomic location. 
+- Visualisation of RNA-sequencing expression of each Host/Nested gene pair across multiple adult tissues.
+- Generation of a customized UCSC link, enabling visualisation each host/nested gene pair. 
+
+An additional tab in the app complies the testis scRNA-seq analysis performed within the paper. 
+
+Citations for data used within the app: 
+
+Frankish A, Diekhans M, Ferreira A-M, et al (2019) GENCODE reference annotation for the human and mouse genomes. Nucleic Acids Res 47:D766–D773. https://doi.org/10.1093/nar/gky955
+
+Davis CA, Hitz BC, Sloan CA, et al (2018) The Encyclopedia of DNA elements (ENCODE): data portal update. Nucleic Acids Res 46:D794–D801. https://doi.org/10.1093/nar/gkx1081
+
+Di Persio S, Tekath T, Siebert-Kuss LM, et al (2021) Single-cell RNA-seq unravels alterations of the human spermatogonial stem cell compartment in patients with impaired spermatogenesis. Cell Rep Med 2:100395. https://doi.org/10.1016/j.xcrm.2021.100395
+
+Copied below, is an image detailing the pipeline used in this study to generate the list of Host & Nested Gene pairs: 
